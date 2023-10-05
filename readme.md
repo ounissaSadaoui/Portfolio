@@ -12,13 +12,13 @@ Ensuite, sur figma, j'ai fait la mauquette, de ce que je veux avoir comme résul
 
  Voilà à ce que ça va ressembler:
  favicon: 
- ![favicon]("./asset/apple-touch-icon 1.png")
+ ![favicon](./asset/apple-touch-icon 1.png)
  
  ma page d'accueil:
- ![icones]("./asset/page-acceuil.png")
+ ![icones](./asset/page-acceuil.png)
 
 le style général de mon menu:
-![favicon]("./asset/page_menu_déroulé.png")
+![favicon](./asset/page_menu_déroulé.png)
 
 ce qu'il me faut encore:
   la page des compétences
