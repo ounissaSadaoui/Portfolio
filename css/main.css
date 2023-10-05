@@ -45,4 +45,21 @@ figure {
 }
 #page_presentation{
     background-color: #E2AE87;
+    height: 100vh;
 }
+#car_icon{
+display: inline-block;
+max-height: 2rem;
+max-width: 2rem;
+}
+header nav{
+    background-color:#E2AE87;
+}
+header  ul > li {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 60px;
+    text-align: right;
+}
+
+
