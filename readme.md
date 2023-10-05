@@ -40,7 +40,7 @@ puis pour chaque icone utilisée, dans une balise i, ou span , on met son code
  ```
 
 d'ailleurs, ma bibliothèque d'icones:
-```
+```html
   <i class="fa-solid fa-house"></i> //home
   <i class="fa-solid fa-book"></i>  //compétences
   <i class="fa-solid fa-mobile-retro"></i> //contact
@@ -51,8 +51,27 @@ d'ailleurs, ma bibliothèque d'icones:
   <i class="fa-brands fa-css3-alt"></i> //CSS
   <i class="fa-brands fa-js"></i> //js
   <i class="fa-brands fa-java"></i> //java
-  <i class="fa-solid fa-signs-post"></i>
+  <i class="fa-solid fa-signs-post"></i> //i really don't remember, should've done it eralier
+  <i class="fa-solid fa-code" style="color: #000000;"></i> //programmation
+  <i class="fa-brands fa-sketch" style="color: #000000;"></i>//design graphique
 
 ```
 
 pour la page de contact, je vais faire un simple formulaire de contact
+
+## Etapes de la création:
+### Ma navbar:
+Au début, je voulais partir sur un menu burger, sur le côté, révélant mes sections, mais j'ai finalement, jusqu'ici du moins, choisi de garder une nav bar tout en haut de la page
+ * le but est quand meme que ça reste visible tout au long de la navigation
+
+c'est une navbar classique, avec des icones à droite et à gauche, dans le header, les icones sont bien évidement cliquables, d'où les class et les href:
+``` html
+    <div class="navbar_droite">
+     <a href="#"><i class="fa-solid fa-book" style="color: #000000;"></i></a>
+
+```
+### Ma section Compétences:
+on utilise l'id "competences" utilisé plus haut, pour que le tout soit cohérent et surtout pour que quand on appuis sur le bouton, ça nous emmène à la section voulue.
+
+<b>On fera la même chose pour toutes les sections </b>
+<i>  Essai de faire une font pour les titres <i>

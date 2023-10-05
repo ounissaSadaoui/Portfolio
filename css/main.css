@@ -1,7 +1,6 @@
 * reset */
 html{
     font-size: 62.5;
-    background: url(../asset/johndoe.webp) center center/ cover fixed;
     scroll-behavior: smooth;
 }
 body{
@@ -9,6 +8,7 @@ body{
     margin: 0;
     line-height: 1.6rem;
     letter-spacing: .1rem;
+    background-color:  #E2AE87;
 }
 h1,h2, h3, h4, h5, h6, p,
 ol, ul, figure, div{
@@ -41,8 +41,49 @@ figure {
 
 #competences{
     background-color: #7A7267;
-
+    max-width: 90%;
+    margin: auto;
+    padding: 4rem;
+    border-top-right-radius: 7%;
+    border-top-left-radius: 7%;
 }
+
+.liste_competences {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .liste_competences li {
+    width: calc(25% - .7rem); /* 4 compétences en largeur avec un espace entre elles */
+  }
+  figure {
+    text-align: center;
+  }
+  
+  figure i {
+    font-size: 72px; /* Taille de l'icône plus grande */
+    margin-bottom: 20px;
+  }
+  
+  figcaption {
+    text-align: left;
+  }
+  
+  figcaption h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  figcaption {
+    font-size: 1.0rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+  
+  
 #page_presentation{
     background-color: #E2AE87;
     height: 100vh;
@@ -62,7 +103,7 @@ header nav{
 }
   
 .navbar i {
-    font-size: 2.4rem;
+    font-size: 2.0rem;
     margin: 0 1rem;
     cursor: pointer;
   }
