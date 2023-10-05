@@ -55,11 +55,23 @@ max-width: 2rem;
 header nav{
     background-color:#E2AE87;
 }
-header  ul > li {
-    display: inline-block;
-    font-size: 1rem;
-    line-height: 60px;
-    text-align: right;
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
 }
+  
+.navbar i {
+    font-size: 2.4rem;
+    margin: 0 1rem;
+    cursor: pointer;
+  }
+  
+.navbar_droite {
+    order: 1; /* Pour inverser l'ordre des éléments à gauche */
+  }
 
-
+.navbar-gauche {
+    order: 2;
+  }
+  
