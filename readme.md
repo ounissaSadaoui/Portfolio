@@ -11,8 +11,9 @@ j'ai pour ça choisi une palette de couleurs d'automne, en utilisant le site "co
 Ensuite, sur figma, j'ai fait la mauquette, de ce que je veux avoir comme résultat, pour l'instant, j'ai la page d'accueil, le menu, la page de contact, ainsi que la page du projet.
 
  Voilà à ce que ça va ressembler:
- favicon: 
- ![favicon](./asset/apple-touch-icon 1.png)
+ favicon:
+ 
+ ![favicon](./asset/apple-touch-icon%201.png)
  
  ma page d'accueil:
  ![icones](./asset/page-acceuil.png)
