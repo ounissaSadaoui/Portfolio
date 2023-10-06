@@ -90,3 +90,5 @@ On utilise l'id "competences" utilisé plus haut, pour que le tout soit cohéren
 
 <b>On fera la même chose pour toutes les sections </b>
 <i>  Essai de faire une font pour les titres <i>
+
+[def]: ./asset/deanW_automn+orange_page-0001.png
