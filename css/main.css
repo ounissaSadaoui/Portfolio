@@ -64,8 +64,8 @@ figure {
   }
   
   figure i {
-    font-size: 72px; /* Taille de l'icône plus grande */
-    margin-bottom: 20px;
+    font-size: 7.2rem; /* Taille de l'icône plus grande */
+    margin-bottom: 2.0rem;
   }
   
   figcaption {
@@ -73,8 +73,8 @@ figure {
   }
   
   figcaption h3 {
-    font-size: 20px;
-    margin: 10px 0;
+    font-size: 2rem;
+    margin: 1rem 0;
   }
   
   figcaption {
