@@ -1,4 +1,4 @@
-<b>Welcome to my Potfolio
+<b>Welcome to my Potfolio ! </b>
 
 [lien de deploiement](https://ounissasadaoui.github.io/Portfolio/)
 
@@ -6,7 +6,7 @@
 # Etapes de réalisation:
 
 1-création du dossier:
- 
+
 j'ai pour ça choisi une palette de couleurs d'automne, en utilisant le site "coolers" i think, d'après l'image de Dean Winchester dans Blood Lust, saison 2.
 
 Ensuite, sur figma, j'ai fait la mauquette, de ce que je veux avoir comme résultat, pour l'instant, j'ai la page d'accueil, le menu, la page de contact, ainsi que la page du projet.
