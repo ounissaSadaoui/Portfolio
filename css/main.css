@@ -28,17 +28,47 @@ img{
     display: inline-block;
     object-fit: cover;
     vertical-align: middle;
-
 }
+/* #presentation figure{
+  max-width: 20%;
+}*/
+
+.page_presentation{
+  background-color: #E2AE87;
+  height: 100vh;
+}
+
+header nav{
+  background-color:#E2AE87;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar i {
+  font-size: 2.0rem;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.navbar_droite {
+  order: 1; /* Pour inverser l'ordre des éléments à gauche */
+}
+
+.navbar-gauche {
+  order: 2;
+}
+
 header h1 {
     text-align: center;
 }
 
-figure {
-    max-width: 50%;
-    margin: auto;
+#Mon-bitmoji {
+  height: 26rem;
+  width: 25rem;
 }
-
 #competences{
     background-color: #7A7267;
     max-width: 90%;
@@ -84,35 +114,5 @@ figure {
   }
   
   
-#page_presentation{
-    background-color: #E2AE87;
-    height: 100vh;
-}
-#car_icon{
-display: inline-block;
-max-height: 2rem;
-max-width: 2rem;
-}
-header nav{
-    background-color:#E2AE87;
-}
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-}
-  
-.navbar i {
-    font-size: 2.0rem;
-    margin: 0 1rem;
-    cursor: pointer;
-  }
-  
-.navbar_droite {
-    order: 1; /* Pour inverser l'ordre des éléments à gauche */
-  }
-
-.navbar-gauche {
-    order: 2;
-  }
   
