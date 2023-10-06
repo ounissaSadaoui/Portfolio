@@ -12,7 +12,7 @@
 J'ai pour ça choisi une palette de couleurs d'automne, en utilisant le site "coolers" i think, d'après l'image de Dean Winchester dans Blood Lust, saison 2.
 
 on peut voir la palette ici:
-![image_palette](./asset/deanW_automn+orange_page-0001.png)
+![image_palette](./asset/palette.png)
 
 ### Favicon:
 Sur le site [favicon.io](https://favicon.io/), j'ai créé cette icone avec mes initiales pour l'utiliser comme favicon,la voici:
@@ -61,10 +61,10 @@ puis pour chaque icone utilisée, dans une balise i, ou span , on met son code
  ## Ma maquette:
 Sur figma, j'ai fait la maquette, de ce que je veux avoir comme résultat, pour l'instant, j'ai la page d'accueil, le menu, la page de contact, ainsi que la page du projet.
 
- <b>Ma page d'accueil:<b>
+ <b>Ma page d'accueil:</b>
  ![icones](./asset/page-acceuil.png)
 
- <b> style général de mon menu:<b>
+ <b> style général de mon menu:</b>
 ![favicon](./asset/page_menu_déroulé.png)
 
 ce qu'il me faut encore:
