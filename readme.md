@@ -5,44 +5,26 @@
 
 # Etapes de réalisation:
 
-1-création du dossier:
+## Avant tout:
 
-j'ai pour ça choisi une palette de couleurs d'automne, en utilisant le site "coolers" i think, d'après l'image de Dean Winchester dans Blood Lust, saison 2.
+### La palette de couleurs:
 
-Ensuite, sur figma, j'ai fait la mauquette, de ce que je veux avoir comme résultat, pour l'instant, j'ai la page d'accueil, le menu, la page de contact, ainsi que la page du projet.
+J'ai pour ça choisi une palette de couleurs d'automne, en utilisant le site "coolers" i think, d'après l'image de Dean Winchester dans Blood Lust, saison 2.
 
- Voilà à ce que ça va ressembler:
- favicon:
+on peut voir la palette ici:
+![image_palette](./asset/deanW_automn+orange_page-0001.jpg)
+
+### Favicon:
+Sur le site [favicon.io](https://favicon.io/), j'ai créé cette icone avec mes initiales pour l'utiliser comme favicon,la voici:
  
  ![favicon](./asset/apple-touch-icon%201.png)
- 
- ma page d'accueil:
- ![icones](./asset/page-acceuil.png)
 
-le style général de mon menu:
-![favicon](./asset/page_menu_déroulé.png)
+ ## Mes icônes:
 
-ce qu'il me faut encore:
-  la page des compétences
-  celle éducation
-  une image pour ma page d'accueil, 
+ Je suis restée sur le thème de l'image, à savoir des icônes plutôt retro, prises sur le site [FontAwsome](https://fontawesome.com/).
+ En voici la liste:
 
-utiliser une icone dans html: how to:
-
-j'étais partie sur une bibliothèque d'icones de flaticons, mais je vais plus partir sur fontAwesome, qui est plus simple et facile à utiliser   
-donc les étapes, c'est on copie dans le head cette ligne de code:
-```
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
-```
-
-puis pour chaque icone utilisée, dans une balise i, ou span , on met son code 
-```
- <i class="fa-solid fa-house"alt="icone maison"></i> 
- ```
-
-d'ailleurs, ma bibliothèque d'icones:
-```html
+ ```html
   <i class="fa-solid fa-house"></i> //home
   <i class="fa-solid fa-book"></i>  //compétences
   <i class="fa-solid fa-mobile-retro"></i> //contact
@@ -58,10 +40,41 @@ d'ailleurs, ma bibliothèque d'icones:
   <i class="fa-brands fa-sketch" style="color: #000000;"></i>//design graphique
 
 ```
+* <b>Utiliser une icone dans html:</b> <i>How to</i>:
+
+j'étais partie sur une bibliothèque d'icones de flaticons, mais je vais plus partir sur fontAwesome, qui est plus simple et facile à utiliser   
+donc les étapes, c'est on copie dans le head cette ligne de code:
+```
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+```
+
+puis pour chaque icone utilisée, dans une balise i, ou span , on met son code 
+```
+ <i class="fa-solid fa-house"alt="icone maison"></i> 
+ ```
+ ## Mon schéma relationnel:
+
+ Réalisé sur [GlooMaps](https://www.gloomaps.com/)
+
+ ![Mon_schéma_relationnel](./asset/gloomap_b0ee4c66.png)
+ ## Ma maquette:
+Sur figma, j'ai fait la maquette, de ce que je veux avoir comme résultat, pour l'instant, j'ai la page d'accueil, le menu, la page de contact, ainsi que la page du projet.
+
+ <b>Ma page d'accueil:<b>
+ ![icones](./asset/page-acceuil.png)
+
+ <b> style général de mon menu:<b>
+![favicon](./asset/page_menu_déroulé.png)
+
+ce qu'il me faut encore:
+  la page des compétences
+  celle éducation
+  une image pour ma page d'accueil.
 
 pour la page de contact, je vais faire un simple formulaire de contact
 
-## Etapes de la création:
+## Création:
 ### Ma navbar:
 Au début, je voulais partir sur un menu burger, sur le côté, révélant mes sections, mais j'ai finalement, jusqu'ici du moins, choisi de garder une nav bar tout en haut de la page
  * le but est quand meme que ça reste visible tout au long de la navigation
@@ -73,7 +86,7 @@ c'est une navbar classique, avec des icones à droite et à gauche, dans le head
 
 ```
 ### Ma section Compétences:
-on utilise l'id "competences" utilisé plus haut, pour que le tout soit cohérent et surtout pour que quand on appuis sur le bouton, ça nous emmène à la section voulue.
+On utilise l'id "competences" utilisé plus haut, pour que le tout soit cohérent et surtout pour que quand on appuis sur le bouton, ça nous emmène à la section voulue.
 
 <b>On fera la même chose pour toutes les sections </b>
 <i>  Essai de faire une font pour les titres <i>
