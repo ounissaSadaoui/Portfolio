@@ -12,7 +12,7 @@
 J'ai pour ça choisi une palette de couleurs d'automne, en utilisant le site "coolers" i think, d'après l'image de Dean Winchester dans Blood Lust, saison 2.
 
 on peut voir la palette ici:
-![image_palette](./asset/deanW_automn+orange_page-0001.jpg)
+![image_palette](./asset/deanW_automn+orange_page-0001.png)
 
 ### Favicon:
 Sur le site [favicon.io](https://favicon.io/), j'ai créé cette icone avec mes initiales pour l'utiliser comme favicon,la voici:
