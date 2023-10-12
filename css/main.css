@@ -43,8 +43,12 @@ header nav{
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: space-between;
+  width: 100%;
+ 
 }
 
 .navbar i {
@@ -112,7 +116,53 @@ header h1 {
     line-height: 1.4;
     text-align: center;
   }
-  
-  
 
+/* c'est le retour à la ligne est autorisé */
+/* initialise, c'est donner display, grid et gap, c'est toujours au parent */
+ /*.gallery-primary ul { 
+  display: grid;
+  padding: .1rem;
+  gap: 1rem;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap; 
+} */
+
+.gallery {
+  --n: 1; /* number of rows*/
+  --m: 5; /* number of columns */
+  --g: 0px;  /* control the gap */
+  --f: .8;   /* control the scale factor */
   
+  display: grid;
+  gap: var(--g);
+  max-width: 90%;
+  height: 100vh;
+  grid-template-columns: repeat(var(--m),auto);
+}
+
+.gallery > img {
+  width: 0;
+  height: 0;
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  filter: grayscale(80%);
+  transition: .35s linear;
+}
+
+.gallery img:hover{
+  filter: grayscale(0);
+  width:  calc(100vh*var(--f)/var(--n));
+  height: calc(100vw*var(--f)/var(--m));
+}
+
+
+body {
+  margin: 0;
+  background: #E2AE87;
+}
+
+

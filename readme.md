@@ -9,7 +9,7 @@
 
 ### La palette de couleurs:
 
-J'ai pour ça choisi une palette de couleurs d'automne, en utilisant le site "coolers" i think, d'après l'image de Dean Winchester dans Blood Lust, saison 2.
+J'ai pour ça choisi une palette de couleurs d'automne, en utilisant le site [Coolors](https://coolors.co/221d23-4f3824-d1603d-ddb967-d0e37f), d'après l'image de Dean Winchester dans Blood Lust, saison 2.
 
 on peut voir la palette ici:
 ![image_palette](./asset/palette.png)
@@ -17,7 +17,7 @@ on peut voir la palette ici:
 ### Favicon:
 Sur le site [favicon.io](https://favicon.io/), j'ai créé cette icone avec mes initiales pour l'utiliser comme favicon,la voici:
  
- ![favicon](./asset/apple-touch-icon%201.png)
+ ![favicon](./asset/apple.png)
 
  ## Mes icônes:
 
