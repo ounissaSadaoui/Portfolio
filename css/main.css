@@ -67,6 +67,17 @@ header nav{
 
 header h1 {
     text-align: center;
+    margin-top: 23rem;
+}
+#page_presentation h2 {
+  text-align: center;
+  margin-top: 3.5rem;
+}
+
+#page_presentation figcaption {
+  margin: auto;
+  max-width: 80%;
+  font-size: large;
 }
 
 #Mon-bitmoji {
@@ -74,13 +85,14 @@ header h1 {
   width: 25rem;
 }
 #competences{
-    background-color: #7A7267;
-    max-width: 90%;
+    /* background-color: #A7A792; /* sage */
+    background-color: #999987; /*battleship gray, passe encore */ 
+    max-width: 80%;
     margin: auto;
     padding: 4rem;
     border-top-right-radius: 7%;
     border-top-left-radius: 7%;
-}
+  }
 
 .liste_competences {
     list-style-type: none;
