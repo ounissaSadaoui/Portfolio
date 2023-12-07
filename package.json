@@ -1,0 +1,23 @@
+{
+  "name": "mon_portfolio",
+  "version": "1.0.0",
+  "description": "<b>Welcome to my Potfolio ! </b>",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --no-babelrc src -w -d js --preset=env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ounissaSadaoui/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ounissaSadaoui/Portfolio/issues"
+  },
+  "homepage": "https://github.com/ounissaSadaoui/Portfolio#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

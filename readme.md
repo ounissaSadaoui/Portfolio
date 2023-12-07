@@ -89,9 +89,20 @@ c'est une navbar classique, avec des icones à droite et à gauche, dans le head
 On utilise l'id "competences" utilisé plus haut, pour que le tout soit cohérent et surtout pour que quand on appuis sur le bouton, ça nous emmène à la section voulue.
 
 <b>On fera la même chose pour toutes les sections </b>
-<i>  Essai de faire une font pour les titres <i>
+<i>  Essai de faire une font pour les titres </i>
 
 ## Section Projets:
 
 Ajout d'une bibliothèque d'images qui vont renvoyer sur les projets
-[def]: ./asset/deanW_automn+orange_page-0001.png
+ ça e
+au clique sur chacune des images, on est renvoyé sur la page github correspondant au projet.
+pour le style de la section, j'ai choisis un grid d'images, et celle en hover s'agrandit.
+
+
+Idées amélioration:
+* Pour le DarkMode, changer la partie grise, celle des compétences, mets du blanc peut être, et les icones en noir
+* toujours pour le darkMode, je pense qu'il est mieux d'attendre d'avoir tout fini pour mettre en place les couleurs, comme ça je n'ai pas à le refaire tout le temps
+* pour les compétences toujours, dans ma classe CSS, j'ai préféré mettre un border radius left et right en px, ça arrondit plus qu'en % => essayer de le mettre en rem si ça marche, comme ça j'ai tout en rem => ça marche bien en rem, on laisse comme ça.
+* dans la prochaine parie que je fais, c'est à dire projets, réduire la taille, essayer d'arranger le fond.
+* la partie d'après remettre du gris en fond, comme ça on est dans une certaine logique.
+* penser à faire des petites transitions entre mes parties 

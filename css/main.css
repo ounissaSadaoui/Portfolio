@@ -102,8 +102,8 @@ header h1 {
     max-width: 80%;
     margin: auto;
     padding: 4rem;
-    border-top-right-radius: 7%;
-    border-top-left-radius: 7%;
+    border-top-right-radius: 8rem 8rem;
+    border-top-left-radius: 8rem 8rem;
   }
 
 .liste_competences {
@@ -141,6 +141,7 @@ header h1 {
     text-align: center;
   }
 
+ 
 /* c'est le retour à la ligne est autorisé */
 /* initialise, c'est donner display, grid et gap, c'est toujours au parent */
  /*.gallery-primary ul { 
@@ -161,8 +162,8 @@ header h1 {
   
   display: grid;
   gap: var(--g);
-  max-width: 90%;
-  height: 100vh;
+  max-width: 80%;
+  height: 75vh;
   grid-template-columns: repeat(var(--m),auto);
 }
 
@@ -200,6 +201,11 @@ body {
 }
 
 .darkmode {
-
+  background-color: rgb(53, 49, 49);
+  color: white;
+}
+.nav_darkmode {
+  color: white;
+  background-color:rgb(53, 49, 49);
 }
 
