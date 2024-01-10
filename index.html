@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Je vous présente mon Portfolio!">
+    <meta name="description" content="Portfolio Ounissa, développeuse .NET et JavaScript">
     <!-- open graph-->
     <meta property="og:title" content="Mon Portfolio">
     <meta property="og:type" content="Website">
@@ -22,6 +22,8 @@
 
 
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/form.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="manifest" href="./favicon/site.webmanifest">    
     <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
@@ -70,7 +72,6 @@
             <li>
               <figure>
                 <i class="fa-solid fa-code" style="color: #000000;"></i> 
-
                   <figcaption>
                      Programmation en: <b>Html</b>, <b>Css</b>, <b>JavaScript</b>, <b>C# </b>et <b>Java</b>.
                   </figcaption> 
@@ -107,39 +108,82 @@
     <section id="projets">
       <br>
       <br>
+      <div class="container">
        <h2>
         Mes projets:
       </h2>
       <br>
-
-     <!-- <div class="grid-container">
-      <div class="gallery-primary" role="grid" aria-labelledby="mes-projets-gauche">
-       <ul id="mes-projets-gauche">
-        <li><img src="https://placehold.jp/250x250.png" alt="representation_projet"></li>
-        <li><img src="https://placehold.jp/200x200.png" alt="representation_projet"></li>        
-       </ul>
-      </div>
-      <div class="gallery-secondary" role="group" aria-labelledby="mes-projets-droite">
-        <ul id="mes-projets-droite">
-         <li><img src="https://placehold.jp/250x250.png" alt="representation_projet"></li>
-        <li><img src="https://placehold.jp/200x200.png" alt="representation_projet"></li>
-        </ul>
-      </div>
-    </div> -->
-
-    
-
-    <div class="gallery">
+      <div class="gallery">
       <a href="https://github.com/ounissaSadaoui/Asteroids" target = "_blank"><img src="./asset/asteroids.png" alt="capture d'ecran projet asteroids"></a>
       <a href="https://github.com/ounissaSadaoui/clavier_musical" target = "_blank"><img src="./asset/clavier.png" alt="capture d'écran clavier musical"></a>
       <a href="https://github.com/ounissaSadaoui/horloge_js" target = "_blank"> <img src="./asset/horloge.png" alt="capture d'ecran horloge css js"></a>
       <a href="https://github.com/ounissaSadaoui/uodating-CSS-variables-with-JS" target="_blank"><img src="./asset/project_css_js.png" alt="capture_ecran_projet_js_css"></a>
       <img src="./asset/Sans titre.jpeg" alt="representation_projet">
     </div>
+  </div>
 </section >
 <section id="contact"> 
+  <div class="inner-form" role="form" aria-labelledby="inscription"> 
+    <fieldset> <!-- c'est tout ce qui entoure le formulaire-->
+        <legend>
+             <!-- c'est le nom donné au formulaire, -->
+           Me contacter
+        </legend>
 
+        <label for="nom">
+            Nom
+        </label> <!-- dans form, action, on met l'endroit ou on pose la requête, ici notre site à nous-->
+        
+        <form action="index.html" method="post">
+        <input 
+            id="Votre nom"
+            type="text"
+            name="Nom"
+            placeholder="Nom" 
+            autofocus="true"
+            aria-required="true"
+            required
+            ><!-- placeholder c'est ce qui est écrit à l'interieur de la case quand elle est vide
+            et aria-requiered veut dire que le champ est obligatoire, il faut le mettre avec required,
+        mais il a dit trop de trucs vaut mieux rehercher ce point: flou  -->
+        <label for="user-lastname">
+            Prénom
+        </label>
+        <input type="text"
+        id="user-lastname"
+        name="Prenom"
+        placeholder="Prénom"
+        aria-required="true"
+        required> <!-- on ne met pas autofocus ici, parce qu'on n'a qu'un seul curseur, on le met toujours sur le premier elt d'ailleurs-->
+
+        <label for="Email">E-mail</label>
+        <input type="Email"
+        id="email"
+        name="mail"
+        placeholder="E-mail"
+        aria-required="true"
+        required>
+        <!-- les numéros sont gérés par des patters pour controler les formats par exemple-->
+        <label for="tel">Téléphone</label>
+        <input type="tel"
+        id="tel"
+        placeholder="Téléphone"
+        name="phone">
+        
+        <label for="message">Message</label>
+        <input type="text"
+               id="message"
+               placeholder="Veuillez saisir votre message"
+               name="Message"
+               aria-required="true"
+               required>
+        <input type="submit"
+        value="Envoyer">
+    </form>
+    </fieldset>
+</div>
 </section>
+
    
 <script src="./js/app.js"></script>
 </main>

@@ -1,0 +1,121 @@
+.contact {
+    background-color: #eee;
+}
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+input[type="email"],
+input[type="submit"]
+{
+    border: 0;
+    background: none;
+    font-size: inherit;
+}
+/* theme */
+.inner-form{
+    margin: 5rem auto 2rem;
+    max-width: 90rem;
+}
+
+.inner-form form *{
+    display: block;
+}
+
+.inner-form form input{
+   /* border: solid .1rem black; */
+    width: 100%;
+    line-height: 3.5rem;
+    padding: .5rem;
+    transition: all .6s ease-in-out;
+
+}
+
+
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+input[type="email"]{
+    border-bottom: solid .1rem black;
+   
+}
+
+.inner-form form input[type="submit"]{
+    margin-top: 2rem;
+    cursor: pointer;
+    width: 35%;
+    border: solid .1rem rgb(175, 16, 128);
+    text-transform: uppercase;
+    color: antiquewhite;
+    background-color: rgb(144, 20, 168);
+    border-radius: .4rem;
+}
+.inner-form form input:focus{
+    outline: O;
+    box-shadow: 0 0 2rem rgb(204, 28, 195);
+}
+
+ .inner-form form input[type="submit"]:focus{
+    box-shadow: O;
+
+}
+
+
+
+.inner-form form input[type="text"],
+.inner-form form input[type="tel"],
+.inner-form form input[type="date"],
+.inner-form form input[type="email"]{
+    width: 50%;
+    border-bottom: solid .1rem black;
+    /* background-color: rgb(218, 207, 207); */
+    
+}
+.inner-form input:focus:not(.inner-form input[type="submit"], .inner-form input[type="checkbox"]){
+    outline: 0;
+    box-shadow: O O 2rem rgb(160, 34, 122);
+    width: 100%;
+    
+}
+
+
+
+
+.inner-form fieldset{
+    border-radius: 2rem;
+    border: solid .1rem rgb(143, 12, 104);
+}
+
+.inner-form fieldset legend{
+    padding: 1rem;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.inner-form form [placeholder]{
+    font-style: italic;
+    transition: all .6s ease-in-out;
+}
+
+.inner-form form input[type="checkbox"]{
+    width: auto;
+   
+}
+.inner-form form input[type="checkbox"]:focus{
+    width: auto;
+    
+}
+
+.inner-form form label{
+    margin: 1rem O;
+    
+ }
+    
+ .inner-form .inner-form form label:last-child,
+.inner-form form input[type="checkbox"]{
+    display: inline-block;
+
+} 
+
+ .inner-form form label.conditions{
+    display: inline-block;
+}
