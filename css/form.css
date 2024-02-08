@@ -119,3 +119,6 @@ input[type="email"]{
  .inner-form form label.conditions{
     display: inline-block;
 }
+.form_creation {
+    text-align: center;
+}
