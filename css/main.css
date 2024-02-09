@@ -8,8 +8,8 @@ body{
     margin: 0;
     line-height: 1.6rem;
     letter-spacing: .1rem;
-    background-color:  #E2AE87;
 }
+
 h1,h2, h3, h4, h5, h6, p,
 ol, ul, figure, div{
     margin: auto;
@@ -36,12 +36,11 @@ button {
   font-size: inherit;
   cursor: pointer;
 }
-/* #presentation figure{
-  max-width: 20%;
-}*/
+
 
 .page_presentation{
-  background-color: #E2AE87;
+  background-color: #ffffff;
+  color: #ffffff;
   height: 100vh;
 }
 
@@ -71,10 +70,12 @@ button{
 
 .navbar_droite {
   order: 1; /* Pour inverser l'ordre des éléments à gauche */
+  margin: 0;
 }
 
 .navbar-gauche {
   order: 2;
+  margin: 0rem;
 }
 
 header h1 {
@@ -141,18 +142,6 @@ header h1 {
     text-align: center;
   }
 
- 
-/* c'est le retour à la ligne est autorisé */
-/* initialise, c'est donner display, grid et gap, c'est toujours au parent */
- /*.gallery-primary ul { 
-  display: grid;
-  padding: .1rem;
-  gap: 1rem;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap; 
-} */
 
 .gallery {
   --n: 1; /* number of rows*/
@@ -198,7 +187,7 @@ max-width: 75%;
 }
 body {
   margin: 0;
-  background: #E2AE87;
+  background: #ffffff;
 }
 
 .darkmode {
@@ -210,3 +199,11 @@ body {
   background-color:rgb(53, 49, 49);
 }
 
+#presentation {
+  border-style: dashed;
+  border-top-right-radius: 28% 28%;
+  border-top-left-radius: 28% 28%;
+  background-color: #E2AE87;
+  margin: 15rem;
+
+}
